@@ -33,14 +33,14 @@ nav ul li {
   text-decoration: none;
   list-style-type: none;
   gap: 12px;
-  color: red;
+  color: black;
 }
 .txt {
   /* padding: 90px 25px; */
   color: rgb(255, 236, 244);
   text-shadow: 2px 2px 4px #000000;
   margin: 0 20px;
-  margin-top: 55%;
+  margin-top: 62%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -57,7 +57,7 @@ nav ul li {
   background: white;
   color: black;
   width: 85vw;
-  margin: 20px 10px;
+  margin: 10px 10px;
   border-radius: 30px;
   justify-content: space-around;
   align-items: center; /* Vertically center content */
