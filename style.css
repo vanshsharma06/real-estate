@@ -9,7 +9,6 @@
 .container {
   background: url("etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg");
   background-size: cover;
-
   background-position: center;
   height: 500px;
   display: flex;
@@ -19,15 +18,22 @@
 
 .container nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   /* margin-top: 10px; */
   padding-top: 12px;
+}
+
+.container nav .logo {
+  padding-left: 32px;
+}
+
+.container nav .nav-btn {
+  padding-right: 32px;
 }
 
 .nav-btn ul {
   display: flex;
   gap: 18px;
-
 }
 
 nav ul li {
