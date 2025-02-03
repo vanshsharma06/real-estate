@@ -9,8 +9,9 @@
 .container {
   background: url("etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg");
   background-size: cover;
+
   background-position: center;
-  height: 290px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -39,14 +40,14 @@ nav ul li {
   color: rgb(255, 236, 244);
   text-shadow: 2px 2px 4px #000000;
   margin: 0 20px;
-  margin-top: 85px;
+  margin-top: 55%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .txt span {
   display: flex;
   flex-direction: column;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -56,7 +57,7 @@ nav ul li {
   background: white;
   color: black;
   width: 85vw;
-  margin: 4px 10px;
+  margin: 20px 10px;
   border-radius: 30px;
   justify-content: space-around;
   align-items: center; /* Vertically center content */
@@ -90,7 +91,7 @@ nav ul li {
 
 .location-box select option {
   color: #000000;
-   background: white;
+  background: white;
   font-size: 9px;
   padding: 9px;
 }
