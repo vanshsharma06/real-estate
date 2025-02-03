@@ -26,14 +26,16 @@
 
 .nav-btn ul {
   display: flex;
-  gap: 7px;
+  gap: 18px;
+
 }
 
 nav ul li {
   text-decoration: none;
   list-style-type: none;
   gap: 12px;
-  color: black;
+  font-size: 13px;
+  color: whitesmoke;
 }
 .txt {
   /* padding: 90px 25px; */
