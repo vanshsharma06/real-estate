@@ -90,7 +90,7 @@ nav ul li {
 
 .location-box select option {
   color: #000000;
-  /* width: 50px; */
+   background: white;
   font-size: 9px;
   padding: 9px;
 }
