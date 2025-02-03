@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: white;
+}
+
+.container {
+  background: url("etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 10px; */
+  padding-top: 12px;
+}
+
+.nav-btn ul {
+  display: flex;
+  gap: 7px;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  gap: 12px;
+  color: black;
+}
+.txt {
+  /* padding: 90px 25px; */
+  color: rgb(255, 236, 244);
+  text-shadow: 2px 2px 4px #000000;
+  margin: 0 20px;
+  margin-top: 85px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.txt span {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.location-box {
+  display: flex;
+  position: relative;
+  background: white;
+  color: black;
+  width: 85vw;
+  margin: 4px 10px;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center; /* Vertically center content */
+  padding: 5px;
+}
+
+.location-box > div {
+  padding: 5px 10px; /* Adjust padding within each box */
+  position: relative;
+  display: flex; /* Use flexbox for label and select */
+  flex-direction: column; /* Stack label and select vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.location-box label {
+  font-size: 9px;
+  margin-bottom: 5px; /* Space between label and select */
+  color: black;
+}
+
+.location-box select {
+  color: #000000;
+  /* width: 40px; */
+  font-size: 9px;
+  appearance: none; /* Standard way to remove the arrow */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  border: none;
+  color: rgb(145, 143, 143);
+}
+
+.location-box select option {
+  color: #000000;
+  /* width: 50px; */
+  font-size: 9px;
+  padding: 9px;
+}
+
+.location-box input {
+  width: 50px;
+  font-size: 8px;
+  /* color: rgb(145, 143, 143); */
+  color: black;
+  border: none;
+}
+
+.location-box .box1,
+.box2,
+.box3,
+.box4 option {
+  color: black;
+  font-size: 11px;
+  width: 100%;
+}
+
+.location-box .box4 button {
+  color: black;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 9px;
+  width: 50px;
+  background: rgb(101, 160, 255);
+  border: none;
+  cursor: pointer;
+}
+
+.location-box > div:nth-child(-n + 3)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  height: 80%;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.location-box > div:last-child::after {
+  content: none;
+}

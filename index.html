@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REAL ESTATE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ----------------------header-------------------------- -->
+      <header>
+        <nav>
+          <div class="logo">LOGO</div>
+          <div class="nav-btn">
+            <ul>
+              <li>Home</li>
+              <li>Rent</li>
+              <li>Sell</li>
+              <li>Buy</li>
+              <li>About</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- --------------text----------- -->
+      <div class="txt">
+        <span>Find a place</span>
+        <span>where you can</span>
+        <span>be yourself</span>
+      </div>
+      <!-- ----------location box---------- -->
+
+      <div class="location-box">
+        <div class="box1">
+          <label for="want-to">Want to</label>
+          <select id="want-to">
+            <option value="buy">Buy</option>
+            <option value="rent">Rent</option>
+          </select>
+        </div>
+        <div class="box2">
+          <label for="property-type">Property Type</label>
+          <select id="property-type">
+            <option value="any">Any</option>
+            <option value="house">House</option>
+            <option value="apartment">Apartment</option>
+          </select>
+        </div>
+        <div class="box3">
+          <label for="location">Location</label>
+          <input type="text" id="location" placeholder="Street,city,zipcode" />
+        </div>
+        <div class="box4">
+          <button>Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
